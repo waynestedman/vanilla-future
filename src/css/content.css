@@ -1,0 +1,24 @@
+/* content.css - styles for content */
+
+#card-content {
+  box-sizing: content-box;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.mini-card {
+  background: rgba(97, 143, 184, 0.5);
+  border: 1px solid rgb(0, 38, 71);
+  border-radius: 16px;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 240px;
+
+  i {
+    margin-right: 8px;
+    color: #140088;
+  }
+}
